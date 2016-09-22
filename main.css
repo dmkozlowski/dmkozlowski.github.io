@@ -61,6 +61,20 @@
   animation: slide-up 1s;
 }
 
+@media screen and (max-width: 667px) {
+    .call {
+      padding: 60% 5% !important;
+      background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .call {
+      padding: 50% 5% !important;
+      background-color: transparent;
+    }
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -140,10 +154,13 @@ h4 {
 .navigation ul {
   list-style-type: none;
   margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 .navigation ul li {
   display: inline-block;
+  padding: 1% 2%;
 }
 
 .navigation ul li a {
