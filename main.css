@@ -87,7 +87,6 @@ body {
   position: relative;
   overflow-y: scroll;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizeLegibility;
   font-family: "Slabo 27px" !important;
 }
 
