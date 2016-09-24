@@ -17,21 +17,21 @@ $(document).ready(function() {
       $('.intro').removeClass('hidden');
     }
 
-    if (y >= 525) {
+    if (y >= 2200) {
       $('.contents-left').addClass('slide-left');
       $('.contents-left').removeClass('hidden');
       $('.contents-right').addClass('slide-right');
       $('.contents-right').removeClass('hidden');
     }
 
-    if (y >= 1000) {
+    if (y >= 525) {
       $('.top-left').addClass('slide-left');
       $('.top-left').removeClass('hidden');
       $('.top-right').addClass('slide-right');
       $('.top-right').removeClass('hidden');
     };
 
-    if (y >= 2000) {
+    if (y >= 1500) {
       $('.bottom').addClass('slide-up');
       $('.bottom').removeClass('hidden');
     }

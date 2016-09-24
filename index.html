@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Michael Drews, CPA, is a as;ldkfj">
+
+
     <title>Michael Drews, CPA</title>
 
     <link rel="stylesheet" href="main.css" type="text/css">
@@ -27,7 +30,7 @@
 
       <div class="call">
         <div class="call-wrapper hidden">
-          <img src="images/Michael_Drews_Logo_Color.jpg">
+          <img src="images/Michael_Drews_Logo_Color.jpg" alt="Michael Drews, CPA">
         </div>
       </div>
     </div>
@@ -41,24 +44,10 @@
 
       <p>Whether you are new to Camarillo, Ventura County, your tax situation changed, or you now have the need for financial planning services, we are here to help you. We are a Camarillo CPA and Financial Services company dedicated to providing you with the service and expertise you need to make wise financial decisions.</p>
 
-      <p id="button"><button><a href="#contact">Contact Us</a></button></p>
+      <p id="button"><a href="#contact"><button type="button">Contact Us</button></a></p>
     </div>
 
-    <div class="block col-sm-12 quick-hits green">
-      <div class="col-sm-4 contents-left hidden">
-        <h2>Quick Links</h2>
-      </div>
-      <div class="col-sm-8 contents-right hidden">
-        <ul>
-          <li><a target="_blank" href="https://www.irs.gov/refunds">Where's my IRS refund?</a></li>
-          <li><a target="_blank" href="https://www.ftb.ca.gov/online/refund/index.asp?WT.mc_id=HP_Online_WheresMyRefund&WT.svl=Ref2">Where's my California refund?</a></li>
-          <li><a target="_blank" href="https://www.irs.gov/payments">I want to pay my IRS taxes online.</a></li>
-          <li><a target="_blank" href="https://www.ftb.ca.gov/online/payment_choices.shtml?WT.mc_id=HP_Banner_PaymentOptions&WT.svl=HPay1">I want to pay my California taxes online.</a></li>
-          <li><a target="_blank" href="https://www.irs.gov/uac/irs-warns-taxpayers-of-summer-surge-in-automated-phone-scam-calls-and-requests-for-fake-tax-payments-using-itunes-gift-cards">I received a threatening call or email from someone claiming to be the IRS.</a></li>
-      </div>
-    </div>
-
-    <div class="block col-sm-12" id="bios">
+    <div class="block col-sm-12 green" id="bios">
       <h2>Who We Are</h2>
       <div class="col-md-6 bio-wrapper top-left hidden">
         <div class="bio-head">
@@ -114,22 +103,37 @@
       </div>
     </div>
 
+    <div class="block col-sm-12 quick-hits">
+      <div class="col-sm-4 contents-left hidden">
+        <h2>Quick Links</h2>
+      </div>
+      <div class="col-sm-8 contents-right hidden">
+        <ul>
+          <li><a target="_blank" href="https://www.irs.gov/refunds">Where's my IRS refund?</a></li>
+          <li><a target="_blank" href="https://www.ftb.ca.gov/online/refund/index.asp?WT.mc_id=HP_Online_WheresMyRefund&WT.svl=Ref2">Where's my California refund?</a></li>
+          <li><a target="_blank" href="https://www.irs.gov/payments">I want to pay my IRS taxes online.</a></li>
+          <li><a target="_blank" href="https://www.ftb.ca.gov/online/payment_choices.shtml?WT.mc_id=HP_Banner_PaymentOptions&WT.svl=HPay1">I want to pay my California taxes online.</a></li>
+          <li><a target="_blank" href="https://www.irs.gov/uac/irs-warns-taxpayers-of-summer-surge-in-automated-phone-scam-calls-and-requests-for-fake-tax-payments-using-itunes-gift-cards">I received a threatening call or email from someone claiming to be the IRS.</a></li>
+        </ul>
+      </div>
+    </div>
+
     <div class="block col-sm-12 contact green" id="contact">
       <h2>Contact Us</h2>
       <div class="col-sm-6 map-wrapper">
         <div id="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.0823366804616!2d-119.02030868510226!3d34.220915980560314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e8366a36ed71bf%3A0xede35689b47a5943!2s400+Camarillo+Ranch+Rd%2C+Camarillo%2C+CA+93012!5e0!3m2!1sen!2sus!4v1474487650695" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3299.0823366804616!2d-119.02030868510226!3d34.220915980560314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e8366a36ed71bf%3A0xede35689b47a5943!2s400+Camarillo+Ranch+Rd%2C+Camarillo%2C+CA+93012!5e0!3m2!1sen!2sus!4v1474487650695" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
       <div class="col-sm-6 form">
 
-        <form method="post" action="send_form_email.php">
+        <form name ="contactform" method="post" action="send_form_email.php">
           Name:<br>
           <input type="text" name="name"><br>
           Email:<br>
           <input type="text" name="email"><br>
           Message:<br>
-          <textarea type="text" name="message"></textarea><br>
+          <textarea name="message"></textarea><br>
           <input type="submit" value="Submit">
         </form>
 
@@ -138,7 +142,8 @@
 
     <div class="col-sm-12 footer block">
 
-      <p class="address">400 Camarillo Ranch Rd #103, Camarillo, CA 93012 | tel (805) 484-4008</p>
+      <p class="address">400 Camarillo Ranch Rd #103, Camarillo, CA 93012<br />
+         tel <a href="tel:+1-805-484-4008">(805) 484-4008</a></p>
 
       <h4>Fine Print</h4>
 
