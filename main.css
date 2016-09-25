@@ -94,19 +94,19 @@ p,
 ul,
 a {
   font-family: 'Slabo 27px' !important;
-  font-size: 18px;
+  font-size: 1.1em;
 }
 
 h1 {
   font-family: 'Josefin Sans', sans-serif !important;
-  letter-spacing: 2px;
+  letter-spacing: .11em;
 }
 
 h2,
 h3,
 h4 {
   font-family: 'Josefin Sans', sans-serif !important;
-  letter-spacing: 2px;
+  letter-spacing: .11em;
 }
 
 h2 {
@@ -114,11 +114,11 @@ h2 {
 }
 
 h3 {
-  font-size: 20px !important;
+  font-size: 1.25em !important;
 }
 
 h4 {
-  font-size: 16px !important;
+  font-size: 1.3em !important;
   color: white !important;
 }
 
@@ -181,7 +181,7 @@ h4 {
 .call-wrapper {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
-  font-size: 20px;
+  font-size: 1.125em;
   text-align: center;
 }
 
@@ -269,7 +269,7 @@ h4 {
 
 #bios h3 {
   padding-top: 2%;
-  font-size: 24px;
+  font-size: 1.5em;
 }
 
 #bios a {
@@ -381,7 +381,7 @@ input[type=submit] {
 
 .footer p.address {
   text-align: center;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 
 .footer a:link {
