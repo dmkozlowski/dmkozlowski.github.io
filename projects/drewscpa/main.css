@@ -70,11 +70,18 @@
     }
 
     .parallax-header {
-      background-image: url('images/bg-mobile.jpg') !important;
+      display: none;
+    }
+
+    .mobile-title {
+      margin-top: 12% !important;
+      display: block !important;
     }
 
     .call {
-      background-image: url('call-mobile.jpg') !important;
+      background-image: url('images/call-mobile.jpg') !important;
+      background-position: top !important;
+      background-size: cover !important;
     }
 
     .navigation ul li a {
@@ -134,6 +141,10 @@ h3 {
 h4 {
   font-size: 1.3em !important;
   color: white !important;
+}
+
+.mobile-title {
+  display: none;
 }
 
 .intro #button {
