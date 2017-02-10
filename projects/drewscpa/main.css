@@ -81,6 +81,10 @@
       color: black;
       background-color: white;
     }
+
+    .call {
+      background-size: contain !important;
+    }
 }
 
 html {
