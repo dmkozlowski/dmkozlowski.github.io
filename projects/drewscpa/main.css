@@ -82,6 +82,9 @@
       background-color: white;
     }
 
+    .call {
+      background-size: contain;
+    }
 
 }
 
