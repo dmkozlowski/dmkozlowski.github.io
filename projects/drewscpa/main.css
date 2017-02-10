@@ -81,11 +81,6 @@
       color: black;
       background-color: white;
     }
-
-    .call {
-      background-size: contain;
-    }
-
 }
 
 html {
@@ -204,7 +199,6 @@ h4 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   background-color: white;
   position: relative;
   overflow: hidden;
