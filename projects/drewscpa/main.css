@@ -69,6 +69,14 @@
       font-size: 1em !important;
     }
 
+    .parallax-header {
+      background-image: url('images/bg-mobile.jpg') !important;
+    }
+
+    .call {
+      background-image: url('call-mobile.jpg') !important;
+    }
+
     .navigation ul li a {
       font-size: 1em !important;
     }
