@@ -78,6 +78,19 @@
       display: block !important;
     }
 
+    .logo {
+      width: 40% !important;
+    }
+
+    .links {
+      width: 60% !important;
+    }
+
+    .links li a {
+      text-decoration: underline;
+    }
+
+
     .call {
       background-image: url('images/call-mobile.jpg') !important;
       background-position: top !important;
