@@ -4,10 +4,6 @@ $(document).ready(function() {
 
       var y = $(this).scrollTop();
 
-      $('.call-wrapper').css({
-        'transform' : 'translate(0px, '+ y /6 + '%)'
-      });
-
       $('.title-wrapper').css({
         'transform' : 'translate(0px, '+ y /3 + '%)'
       });
@@ -39,8 +35,8 @@ $(document).ready(function() {
     });
 
     function mainReveal() {
-      $('.call-wrapper').addClass('fade-in');
-      $('.call-wrapper').removeClass('hidden');
+      $('.logo').addClass('fade-in');
+      $('.logo').removeClass('hidden');
     }
 
 

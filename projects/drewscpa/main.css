@@ -146,18 +146,40 @@ h4 {
   color: white;
 }
 
+.nav-wrapper {
+  display: block;
+  width: 100%;
+}
+
+.logo {
+  display: inline-block;
+  width: 30%;
+  position: fixed;
+  left: 2%;
+  top: 1%;
+  box-shadow: 0px 2px 4px;
+}
+
+.logo img {
+  width: 100%;
+}
+
 .navigation {
   position: fixed;
   width: 100%;
   top: 0;
   text-align: center;
-  background-color: #006750;
   z-index: 100;
   box-shadow: 0px 2px 4px;
+  background-color: #006750;
+}
+
+.links {
+  width: 70%;
+  float: right;
 }
 
 .navigation ul {
-  list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: center;
@@ -170,10 +192,11 @@ h4 {
 
 .navigation ul li a {
   color: white;
+  font-size: 1.1em;
 }
 
 .call {
-  background-image: url('images/0-group-40.jpg');
+  background-image: url('images/0-group-34crop.jpg');
   height: 100%;
   background-attachment: fixed;
   background-position: center;
@@ -185,13 +208,6 @@ h4 {
   color: white;
   z-index: -2;
   padding: 12%;
-}
-
-.call-wrapper {
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  font-size: 1.125em;
-  text-align: center;
 }
 
 .dropdown {
@@ -353,12 +369,13 @@ input[type=submit] {
   overflow: hidden;
   color: white;
   z-index: -2;
-  padding: 12%;
+  padding-top: 10%;
+  padding-left: 5%;
 }
 
 .title-wrapper {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 5%;
+  padding: 3%;
   display: inline-block;
   font-family: 'Josefin Sans', sans-serif;
 }
