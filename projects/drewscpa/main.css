@@ -81,6 +81,7 @@
     .call {
       background-image: url('images/call-mobile.jpg') !important;
       background-position: top !important;
+      background-size: contain !important;
     }
 
     .navigation ul li a {
