@@ -204,7 +204,6 @@ h4 {
 .call {
   background-image: url('images/0-group-34crop.jpg');
   height: 100%;
-  background-size: cover !important;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
