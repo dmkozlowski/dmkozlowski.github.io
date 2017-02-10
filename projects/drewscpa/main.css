@@ -83,7 +83,8 @@
     }
 
     .call {
-      background-size: auto !important;
+      background-size: cover !important;
+      overflow: auto !important;
     }
 }
 
