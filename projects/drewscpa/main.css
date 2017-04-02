@@ -64,6 +64,11 @@
   animation: slide-up 1s;
 }
 
+.resize {
+  width: 30% !important;
+  transition: all .5s ease-in-out;
+}
+
 @media screen and (max-width: 800px) {
     p {
       font-size: 1em !important;
@@ -83,7 +88,7 @@
     }
 
     .links {
-      width: 60% !important;
+      width: 100% !important;
     }
 
     .links li a {
@@ -179,48 +184,42 @@ h4 {
   color: white;
 }
 
-.nav-wrapper {
-  display: block;
+.navigation {
+  position: fixed;
+  text-align: center;
   width: 100%;
+  top: 0;
+  z-index: 100;
 }
 
 .logo {
   display: inline-block;
-  width: 30%;
-  position: fixed;
-  left: 2%;
-  top: 1%;
+  margin-top: 10px;
+  width: 50%;
   box-shadow: 0px 2px 4px;
+  transition: all .5s linear;
 }
 
 .logo img {
   width: 100%;
 }
 
-.navigation {
-  position: fixed;
-  width: 100%;
-  top: 0;
-  text-align: center;
-  z-index: 100;
-  box-shadow: 0px 2px 4px;
-  background-color: #006750;
-}
-
 .links {
-  width: 70%;
-  float: right;
+  width: 100%;
 }
 
 .navigation ul {
   margin: 0;
   padding: 0;
   text-align: center;
+  padding-top: 1%;
 }
 
 .navigation ul li {
   display: inline-block;
   padding: 1% 2%;
+  border: 2px solid black;
+  background: rgba(0, 0, 0, .5);
 }
 
 .navigation ul li a {
@@ -232,7 +231,7 @@ h4 {
   background-image: url('images/0-group-34crop.jpg');
   height: 100%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-color: white;
   position: relative;

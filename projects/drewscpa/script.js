@@ -13,6 +13,10 @@ $(document).ready(function() {
       $('.intro').removeClass('hidden');
     }
 
+    if (y >= 250) {
+      $('.logo').addClass('resize');
+    }
+
     if (y >= 2200) {
       $('.contents-left').addClass('slide-left');
       $('.contents-left').removeClass('hidden');
@@ -35,8 +39,8 @@ $(document).ready(function() {
     });
 
     function mainReveal() {
-      $('.logo').addClass('fade-in');
-      $('.logo').removeClass('hidden');
+      $('.navigation').addClass('fade-in');
+      $('.navigation').removeClass('hidden');
     }
 
 
