@@ -247,14 +247,14 @@ h4 {
 
 .navigation ul li {
   display: inline-block;
-  padding: 1% 2%;
+  padding: .5% 1%;
   border: 2px solid black;
   background: rgba(0, 0, 0, .5);
 }
 
 .navigation ul li a {
   color: white;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
 .dropdown {
