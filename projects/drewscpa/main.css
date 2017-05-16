@@ -69,7 +69,7 @@
   transition: all .5s ease-in-out;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
     p {
       font-size: 1em !important;
     }
@@ -78,13 +78,18 @@
       display: none;
     }
 
+    .mobile-nav {
+      display: block !important;
+    }
+
     .mobile-title {
-      margin-top: 12% !important;
+      margin-top: 5% !important;
       display: block !important;
     }
 
     .logo {
-      width: 40% !important;
+      width: 100% !important;
+      margin-top: 0 !important;
     }
 
     .links {
@@ -103,6 +108,18 @@
       background-image: url('images/call-mobile.jpg') !important;
       background-position: top !important;
       height: 70% !important;
+    }
+
+    .nav-wrapper {
+      display: block !important;
+    }
+
+    .nav-wrapper ul li {
+      display: block !important;
+      width: 50% !important;
+      margin-top: 1%;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .navigation ul li a {
@@ -168,6 +185,10 @@ h4 {
   display: none;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 .intro #button {
   text-align: center;
 }
@@ -184,8 +205,18 @@ h4 {
   color: white;
 }
 
+.call {
+  background-image: url('images/0-group-34crop.jpg');
+  height: 70%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
 .navigation {
-  position: fixed;
   text-align: center;
   width: 100%;
   top: 0;
@@ -195,9 +226,8 @@ h4 {
 .logo {
   display: inline-block;
   margin-top: 10px;
-  width: 50%;
+  width: 25%;
   box-shadow: 0px 2px 4px;
-  transition: all .5s linear;
 }
 
 .logo img {
@@ -227,20 +257,6 @@ h4 {
   font-size: 1.1em;
 }
 
-.call {
-  background-image: url('images/0-group-34crop.jpg');
-  height: 100%;
-  background-attachment: fixed;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-color: white;
-  position: relative;
-  overflow: hidden;
-  color: white;
-  z-index: -2;
-  padding: 12%;
-}
-
 .dropdown {
   position: fixed !important;
   left: 1%;
@@ -260,11 +276,6 @@ h4 {
 .btn {
   background-color: white;
   border-radius: 0 !important;
-}
-
-.intro h2 {
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .block a:link {
@@ -306,11 +317,6 @@ h4 {
   padding: 5% !important;
 }
 
-.intro p {
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
 .intro .lead {
   text-align: center;
 }
@@ -323,6 +329,10 @@ h4 {
 #bios a {
   text-decoration: none;
   color: black;
+}
+
+.quick-hits {
+  padding-top: 0 !important;
 }
 
 .img-wrapper {
@@ -387,28 +397,34 @@ input[type=submit] {
   color: black;
 }
 
-
 .parallax-header {
   background-image: url('images/bg.jpg');
-  height: 60%;
+  height: 50%;
   background-attachment: fixed;
-  background-position: center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #242424;
   position: relative;
   overflow: hidden;
   color: white;
-  z-index: -2;
-  padding-top: 10%;
-  padding-left: 5%;
 }
 
 .title-wrapper {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 3%;
+  margin-top: 5%;
+  margin-left: 3%;
   display: inline-block;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+.dropup {
+  margin: 3%;
+}
+
+.dropup button {
+  font-size: 18px;
 }
 
 .dropup ul {
